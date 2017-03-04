@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  HomeTableViewController.h
 //  Airbnb
 //
 //  Created by Roselyn on 1/3/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface HomeTableViewController : UITableViewController
 
 @end
-

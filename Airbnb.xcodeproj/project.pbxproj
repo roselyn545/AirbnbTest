@@ -7,28 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159C1C441E69B78200356B5F /* LodgingMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C1C431E69B78200356B5F /* LodgingMapAnnotation.m */; };
+		159C1C4A1E69C80000356B5F /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 159C1C491E69C80000356B5F /* LocationManager.m */; };
 		D47790D11E678D7B0044757D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790D01E678D7B0044757D /* main.m */; };
 		D47790D41E678D7B0044757D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790D31E678D7B0044757D /* AppDelegate.m */; };
-		D47790D71E678D7B0044757D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790D61E678D7B0044757D /* FirstViewController.m */; };
-		D47790DA1E678D7B0044757D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790D91E678D7B0044757D /* SecondViewController.m */; };
+		D47790D71E678D7B0044757D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790D61E678D7B0044757D /* ProfileViewController.m */; };
+		D47790DA1E678D7B0044757D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790D91E678D7B0044757D /* MapViewController.m */; };
 		D47790DD1E678D7C0044757D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47790DB1E678D7C0044757D /* Main.storyboard */; };
 		D47790DF1E678D7C0044757D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47790DE1E678D7C0044757D /* Assets.xcassets */; };
 		D47790E21E678D7C0044757D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47790E01E678D7C0044757D /* LaunchScreen.storyboard */; };
+		D47790EE1E67C41C0044757D /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790ED1E67C41C0044757D /* HomeTableViewController.m */; };
+		D47790F11E67C5570044757D /* LodgingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D47790F01E67C5570044757D /* LodgingTableViewCell.m */; };
+		D4848A061E6ABEC7002B2A44 /* Base.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = D4848A051E6ABEC7002B2A44 /* Base.xcdatamodel */; };
+		D4848A331E6B026A002B2A44 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4848A311E6B026A002B2A44 /* FBSDKLoginKit.framework */; };
+		D4848A341E6B026A002B2A44 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4848A321E6B026A002B2A44 /* FBSDKCoreKit.framework */; };
+		D4848A381E6B04BD002B2A44 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4848A371E6B04BD002B2A44 /* LoginViewController.m */; };
+		D4848A441E6B1B45002B2A44 /* _Lodging+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D4848A421E6B1B45002B2A44 /* _Lodging+CoreDataProperties.m */; };
+		D4848A491E6B1FF6002B2A44 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D4848A481E6B1FF6002B2A44 /* README.md */; };
+		D48EC89C1E68DFBF00209276 /* FavoriteLodging.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EC89B1E68DFBF00209276 /* FavoriteLodging.m */; };
+		D48EC8A21E68DFC900209276 /* _Lodging.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EC8A01E68DFC900209276 /* _Lodging.m */; };
+		D48EC8A71E6918B400209276 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EC8A61E6918B400209276 /* WebService.m */; };
+		D48EC8AB1E691D2900209276 /* RemoteLodging.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EC8AA1E691D2900209276 /* RemoteLodging.m */; };
+		D48EC8AE1E6939CE00209276 /* FavoritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EC8AD1E6939CE00209276 /* FavoritesTableViewController.m */; };
+		D48EC8B11E693FA300209276 /* LodgingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EC8B01E693FA300209276 /* LodgingDetailViewController.m */; };
+		D48EC8B31E69503E00209276 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48EC8B21E69503E00209276 /* MapKit.framework */; };
+		F89F30C2B8EF9441B2C00AC3 /* libPods-Airbnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F712C69606C86E3C52D50D5 /* libPods-Airbnb.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		159C1C421E69B78200356B5F /* LodgingMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LodgingMapAnnotation.h; sourceTree = "<group>"; };
+		159C1C431E69B78200356B5F /* LodgingMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LodgingMapAnnotation.m; sourceTree = "<group>"; };
+		159C1C481E69C80000356B5F /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		159C1C491E69C80000356B5F /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		5F712C69606C86E3C52D50D5 /* libPods-Airbnb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbnb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D4B8D3374B4450E342322D /* Pods-Airbnb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb.debug.xcconfig"; sourceTree = "<group>"; };
+		B0AE792752FD6E306D6F66D9 /* Pods-Airbnb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb.release.xcconfig"; sourceTree = "<group>"; };
 		D47790CC1E678D7B0044757D /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47790D01E678D7B0044757D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D47790D21E678D7B0044757D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D47790D31E678D7B0044757D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D47790D51E678D7B0044757D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		D47790D61E678D7B0044757D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D47790D81E678D7B0044757D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D47790D91E678D7B0044757D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D47790D51E678D7B0044757D /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		D47790D61E678D7B0044757D /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		D47790D81E678D7B0044757D /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D47790D91E678D7B0044757D /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		D47790DC1E678D7C0044757D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D47790DE1E678D7C0044757D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47790E11E678D7C0044757D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D47790E31E678D7C0044757D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47790EC1E67C41C0044757D /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		D47790ED1E67C41C0044757D /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		D47790EF1E67C5570044757D /* LodgingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LodgingTableViewCell.h; sourceTree = "<group>"; };
+		D47790F01E67C5570044757D /* LodgingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LodgingTableViewCell.m; sourceTree = "<group>"; };
+		D4848A051E6ABEC7002B2A44 /* Base.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = Base.xcdatamodel; path = Airbnb/Base.xcdatamodel; sourceTree = "<group>"; };
+		D4848A311E6B026A002B2A44 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D4848A321E6B026A002B2A44 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D4848A361E6B04BD002B2A44 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D4848A371E6B04BD002B2A44 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D4848A411E6B1B45002B2A44 /* _Lodging+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "_Lodging+CoreDataProperties.h"; path = "../_Lodging+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D4848A421E6B1B45002B2A44 /* _Lodging+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "_Lodging+CoreDataProperties.m"; path = "../_Lodging+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D4848A481E6B1FF6002B2A44 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D48EC89A1E68DFBF00209276 /* FavoriteLodging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteLodging.h; sourceTree = "<group>"; };
+		D48EC89B1E68DFBF00209276 /* FavoriteLodging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteLodging.m; sourceTree = "<group>"; };
+		D48EC89F1E68DFC900209276 /* _Lodging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Lodging.h; sourceTree = "<group>"; };
+		D48EC8A01E68DFC900209276 /* _Lodging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Lodging.m; sourceTree = "<group>"; };
+		D48EC8A51E6918B400209276 /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		D48EC8A61E6918B400209276 /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		D48EC8A91E691D2900209276 /* RemoteLodging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteLodging.h; sourceTree = "<group>"; };
+		D48EC8AA1E691D2900209276 /* RemoteLodging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteLodging.m; sourceTree = "<group>"; };
+		D48EC8AC1E6939CE00209276 /* FavoritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewController.h; sourceTree = "<group>"; };
+		D48EC8AD1E6939CE00209276 /* FavoritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewController.m; sourceTree = "<group>"; };
+		D48EC8AF1E693FA300209276 /* LodgingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LodgingDetailViewController.h; sourceTree = "<group>"; };
+		D48EC8B01E693FA300209276 /* LodgingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LodgingDetailViewController.m; sourceTree = "<group>"; };
+		D48EC8B21E69503E00209276 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +86,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4848A331E6B026A002B2A44 /* FBSDKLoginKit.framework in Frameworks */,
+				D4848A341E6B026A002B2A44 /* FBSDKCoreKit.framework in Frameworks */,
+				D48EC8B31E69503E00209276 /* MapKit.framework in Frameworks */,
+				F89F30C2B8EF9441B2C00AC3 /* libPods-Airbnb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		159C1C3B1E69AD4400356B5F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D47790D81E678D7B0044757D /* MapViewController.h */,
+				D47790D91E678D7B0044757D /* MapViewController.m */,
+				159C1C421E69B78200356B5F /* LodgingMapAnnotation.h */,
+				159C1C431E69B78200356B5F /* LodgingMapAnnotation.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		159C1C3C1E69AD4B00356B5F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D47790EC1E67C41C0044757D /* HomeTableViewController.h */,
+				D47790ED1E67C41C0044757D /* HomeTableViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		159C1C3D1E69AD6D00356B5F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D47790D51E678D7B0044757D /* ProfileViewController.h */,
+				D47790D61E678D7B0044757D /* ProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		159C1C3E1E69ADB100356B5F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D47790EF1E67C5570044757D /* LodgingTableViewCell.h */,
+				D47790F01E67C5570044757D /* LodgingTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		159C1C3F1E69ADBE00356B5F /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				D48EC8AC1E6939CE00209276 /* FavoritesTableViewController.h */,
+				D48EC8AD1E6939CE00209276 /* FavoritesTableViewController.m */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		159C1C401E69ADC600356B5F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D48EC8AF1E693FA300209276 /* LodgingDetailViewController.h */,
+				D48EC8B01E693FA300209276 /* LodgingDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		51FCB7198F61C3E98728C0B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D4B8D3374B4450E342322D /* Pods-Airbnb.debug.xcconfig */,
+				B0AE792752FD6E306D6F66D9 /* Pods-Airbnb.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		964F0E116737F11CE3DECCBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4848A311E6B026A002B2A44 /* FBSDKLoginKit.framework */,
+				D4848A321E6B026A002B2A44 /* FBSDKCoreKit.framework */,
+				D48EC8B21E69503E00209276 /* MapKit.framework */,
+				5F712C69606C86E3C52D50D5 /* libPods-Airbnb.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D47790C31E678D7B0044757D = {
 			isa = PBXGroup;
 			children = (
+				D4848A481E6B1FF6002B2A44 /* README.md */,
+				D4848A051E6ABEC7002B2A44 /* Base.xcdatamodel */,
 				D47790CE1E678D7B0044757D /* Airbnb */,
 				D47790CD1E678D7B0044757D /* Products */,
+				51FCB7198F61C3E98728C0B5 /* Pods */,
+				964F0E116737F11CE3DECCBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,15 +195,12 @@
 		D47790CE1E678D7B0044757D /* Airbnb */ = {
 			isa = PBXGroup;
 			children = (
+				D47790EB1E67AC1F0044757D /* Models */,
+				D47790EA1E67AC160044757D /* Views */,
+				D47790E91E67AC090044757D /* Controllers */,
 				D47790D21E678D7B0044757D /* AppDelegate.h */,
 				D47790D31E678D7B0044757D /* AppDelegate.m */,
-				D47790D51E678D7B0044757D /* FirstViewController.h */,
-				D47790D61E678D7B0044757D /* FirstViewController.m */,
-				D47790D81E678D7B0044757D /* SecondViewController.h */,
-				D47790D91E678D7B0044757D /* SecondViewController.m */,
-				D47790DB1E678D7C0044757D /* Main.storyboard */,
 				D47790DE1E678D7C0044757D /* Assets.xcassets */,
-				D47790E01E678D7C0044757D /* LaunchScreen.storyboard */,
 				D47790E31E678D7C0044757D /* Info.plist */,
 				D47790CF1E678D7B0044757D /* Supporting Files */,
 			);
@@ -84,6 +215,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D47790E91E67AC090044757D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4848A351E6B04A9002B2A44 /* Login */,
+				159C1C401E69ADC600356B5F /* Detail */,
+				159C1C3F1E69ADBE00356B5F /* Favorites */,
+				159C1C3E1E69ADB100356B5F /* Cell */,
+				159C1C3D1E69AD6D00356B5F /* Profile */,
+				159C1C3C1E69AD4B00356B5F /* Home */,
+				159C1C3B1E69AD4400356B5F /* Map */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D47790EA1E67AC160044757D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D47790E01E678D7C0044757D /* LaunchScreen.storyboard */,
+				D47790DB1E678D7C0044757D /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D47790EB1E67AC1F0044757D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4848A471E6B1E18002B2A44 /* Location */,
+				D4848A461E6B1E08002B2A44 /* Web */,
+				D4848A451E6B1DF6002B2A44 /* DB */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D4848A351E6B04A9002B2A44 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D4848A361E6B04BD002B2A44 /* LoginViewController.h */,
+				D4848A371E6B04BD002B2A44 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D4848A451E6B1DF6002B2A44 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				D48EC8981E68DF9F00209276 /* Entities */,
+				D48EC8991E68DFA600209276 /* Base */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		D4848A461E6B1E08002B2A44 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				D48EC8A51E6918B400209276 /* WebService.h */,
+				D48EC8A61E6918B400209276 /* WebService.m */,
+				D48EC8A91E691D2900209276 /* RemoteLodging.h */,
+				D48EC8AA1E691D2900209276 /* RemoteLodging.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		D4848A471E6B1E18002B2A44 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				159C1C481E69C80000356B5F /* LocationManager.h */,
+				159C1C491E69C80000356B5F /* LocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		D48EC8981E68DF9F00209276 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D48EC89A1E68DFBF00209276 /* FavoriteLodging.h */,
+				D48EC89B1E68DFBF00209276 /* FavoriteLodging.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		D48EC8991E68DFA600209276 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D4848A411E6B1B45002B2A44 /* _Lodging+CoreDataProperties.h */,
+				D4848A421E6B1B45002B2A44 /* _Lodging+CoreDataProperties.m */,
+				D48EC89F1E68DFC900209276 /* _Lodging.h */,
+				D48EC8A01E68DFC900209276 /* _Lodging.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D47790E61E678D7C0044757D /* Build configuration list for PBXNativeTarget "Airbnb" */;
 			buildPhases = (
+				CC9971A8888885B2480AEDB4 /* [CP] Check Pods Manifest.lock */,
 				D47790C81E678D7B0044757D /* Sources */,
 				D47790C91E678D7B0044757D /* Frameworks */,
 				D47790CA1E678D7B0044757D /* Resources */,
+				30D4E0D0D1DEA751E28B2EB6 /* [CP] Embed Pods Frameworks */,
+				F99DC03F6556661D6BE27D21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,6 +340,7 @@
 				TargetAttributes = {
 					D47790CB1E678D7B0044757D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M9Z4R39HYW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,14 +376,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30D4E0D0D1DEA751E28B2EB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9971A8888885B2480AEDB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F99DC03F6556661D6BE27D21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D47790C81E678D7B0044757D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D47790DA1E678D7B0044757D /* SecondViewController.m in Sources */,
+				D47790DA1E678D7B0044757D /* MapViewController.m in Sources */,
+				D48EC8A71E6918B400209276 /* WebService.m in Sources */,
+				D48EC8B11E693FA300209276 /* LodgingDetailViewController.m in Sources */,
+				D48EC8A21E68DFC900209276 /* _Lodging.m in Sources */,
+				D47790EE1E67C41C0044757D /* HomeTableViewController.m in Sources */,
+				159C1C441E69B78200356B5F /* LodgingMapAnnotation.m in Sources */,
+				D4848A491E6B1FF6002B2A44 /* README.md in Sources */,
+				D4848A381E6B04BD002B2A44 /* LoginViewController.m in Sources */,
+				D4848A441E6B1B45002B2A44 /* _Lodging+CoreDataProperties.m in Sources */,
 				D47790D41E678D7B0044757D /* AppDelegate.m in Sources */,
-				D47790D71E678D7B0044757D /* FirstViewController.m in Sources */,
+				159C1C4A1E69C80000356B5F /* LocationManager.m in Sources */,
+				D47790D71E678D7B0044757D /* ProfileViewController.m in Sources */,
+				D47790F11E67C5570044757D /* LodgingTableViewCell.m in Sources */,
+				D48EC89C1E68DFBF00209276 /* FavoriteLodging.m in Sources */,
+				D48EC8AE1E6939CE00209276 /* FavoritesTableViewController.m in Sources */,
+				D48EC8AB1E691D2900209276 /* RemoteLodging.m in Sources */,
+				D4848A061E6ABEC7002B2A44 /* Base.xcdatamodel in Sources */,
 				D47790D11E678D7B0044757D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +564,13 @@
 		};
 		D47790E71E678D7C0044757D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D4B8D3374B4450E342322D /* Pods-Airbnb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9Z4R39HYW;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = Airbnb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roselynvl.Airbnb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,9 +579,13 @@
 		};
 		D47790E81E678D7C0044757D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AE792752FD6E306D6F66D9 /* Pods-Airbnb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9Z4R39HYW;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = Airbnb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roselynvl.Airbnb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,6 +611,7 @@
 				D47790E81E678D7C0044757D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
